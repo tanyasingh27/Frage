@@ -1,0 +1,18 @@
+.layout{
+    text-align: left;
+    background-color: #fff ;
+    overflow-x: hidden;
+}
+
+.layout .heading{
+    padding: 10px;
+    color: #fff;
+    box-shadow: 0 0 0.8142857142857143rem #ccc;
+    background-color:  #a6d609;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 99%;
+    margin: 0 auto;
+}

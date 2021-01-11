@@ -1,0 +1,36 @@
+.Popup {
+    position: fixed;
+    z-index: 500;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 0.575rem;
+    box-shadow: 0 0 0.7142857142857143rem #ccc;
+    padding: 16px;
+    left: 20%;
+    top: 20%;
+    color: rgb(199, 150, 25);
+    height:60%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    overflow: auto;
+}
+
+.Popup h2{
+    color: rgb(3, 114, 114);
+}
+
+.Popup .link{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    background-color: #a6d609;
+}
+
+@media (max-width: 1024px) {
+    .Popup {
+        width:75%;
+        height: 50%;
+        left: 10%;
+        font-size: 0.8rem;
+    }
+}
